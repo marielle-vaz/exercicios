@@ -1,5 +1,11 @@
 package edu.br.marielle.aula4.ex1;
 
+/*Crie uma classe Animal que obedeça à seguinte descrição: possua os atributos nome (String), comprimento (float), número de patas (int), cor (String), ambiente (String) e velocidade média (float).
+Crie um método construtor que receba por parâmetro os valores iniciais de cada um dos atributos de classe.
+Encapsule os atributos.
+Crie um método verDados, sem parâmetros e do tipo void, que, quando chamado, imprime na tela os dados do animal.
+Crie uma classe Teste, com o método main, crie um objeto da classe Animal, atribua valores aos seus atributos e chame o método verDados.*/
+
 public class Animal {
 	private String nome, cor, ambiente;
 	private float comprimento, vel_media;
@@ -18,8 +24,8 @@ public class Animal {
 	
 	public void verDados() {
 		System.out.println("Nome: " + this.nome + "\nComprimento: " + this.comprimento + " cm");
-		System.out.println("N�mero de patas: " + this.numero_patas + "\nCor: " + this.cor);
-		System.out.println("Ambiente: " + this.ambiente + "\nVelocidade M�dia: " + this.vel_media + " m/s");
+		System.out.println("Número de patas: " + this.numero_patas + "\nCor: " + this.cor);
+		System.out.println("Ambiente: " + this.ambiente + "\nVelocidade Média: " + this.vel_media + " m/s");
 	}
 	
 	/* Generate - toString()
