@@ -1,5 +1,12 @@
 package edu.br.marielle.aula4.ex3;
 
+/*Escreva um construtor para a classe Lampada de forma que instâncias desta só possam ser criadas se um estado inicial for passado para o construtor.
+Esse estado pode ser o valor booleano que indica se a lâmpada está acesa (true) ou apagada (false).
+Faça com que, caso o estado não seja passado na criação, a lâmpada esteja acesa  ou apagada, randomicamente.
+Considere que classe Lampada também inclui o número de watts da lâmpada. Escreva dois construtores para a classe: 
+- um que recebe como argumentos o número de watts da lâmpada,
+- e outro, sem argumentos, que considera que a lâmpada tenha um valor entre 60 e 200 watts, randomicamente, por padrão.*/
+
 import java.util.Random;
 
 public class Lampada {
